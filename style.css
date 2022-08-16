@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(177, 4, 177), cyan);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Poppins', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container{
+    background-color: white;
+    margin-top: 75px;
+    padding: 35px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.header-text{
+    text-align: center;
+    margin-bottom: 40px;
+    background: -webkit-linear-gradient(1turn, blue, green, blue, green, blue, green);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+input{
+    /* line-height: 1.2; */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: #ccc;
+    width: 250px;
+    outline: none;
+    padding-top: 10px;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+input::placeholder {
+    transition: transform 0.3s;
+    color: black;
+    font-family: 'Poppins';
+}
+
+input:focus::placeholder {
+    font-size: 11px;
+    transform: translateY(-14px);
+    color: blue;
+}
+
+label{
+    display: flex;
+    line-height: 0.5;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-name{
+    padding-right: 30px;
+}
+
+.contacts{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message{
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.message-text{
+    margin-top: 10px;
+}
+
+.message-input{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.submit-btn{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-family: 'Poppins';
+    
+}
+
+.submit{
+    margin-top: 15px;
+    height: 30px;
+    width: 25%;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background: linear-gradient(to left, rgb(177, 4, 177), cyan)
+}
+
+
+
